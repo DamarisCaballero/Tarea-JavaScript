@@ -6,7 +6,7 @@
 
 function coche(tipo){
     if(tipo == "FORD FIESTA"){
-        let precio = 2500;
+        let precio = 9810;
         let descuento = precio - (precio * 0.05);
         console.log(
             "Coche: FORD FIESTA" + "\n" +
@@ -14,7 +14,7 @@ function coche(tipo){
             "Total de la compra: $" + descuento
         );
     }else if(tipo == "FORD FOCUS"){
-        let precio = 3100;
+        let precio = 7100;
         let descuento = precio - (precio * 0.10);
         console.log(
             "Coche: FORD FOCUS" + "\n" +
@@ -22,7 +22,7 @@ function coche(tipo){
             "Total de la compra: $" + descuento
         );
     }else if(tipo == "FORD ESCAPE"){
-        let precio = 4000;
+        let precio = 8000;
         let descuento = precio - (precio * 0.20);
         console.log(
             "Coche: FORD ESCAPE" + "\n" +
@@ -33,5 +33,4 @@ function coche(tipo){
         console.log("El tipo de coche no esta en inventario");
     }
 }
-coche("FORD FOCUS");
-coche("HONDA");
+coche("FORD FIESTA");
