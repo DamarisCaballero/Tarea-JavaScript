@@ -9,7 +9,6 @@ function isValidDate(day,month,year)
 {
     var dteDate;
 
-   
     month=month-1;
     dteDate=new Date(year,month,day);
     return ((day==dteDate.getDate()) && (month==dteDate.getMonth()) && (year==dteDate.getFullYear()));
