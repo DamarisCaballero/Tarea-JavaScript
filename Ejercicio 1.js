@@ -5,7 +5,7 @@ function adulto(edad){
 
     // ? = cuando acepta la condicion
     // : = sino acepta la condicion, hace otro proceso
-    edad >=18  ? console.log("es mayor de edad") : console.log("no es mayor de edad");
+    edad >=18  ? console.log("Es mayor de edad") : console.log("No es mayor de edad");
 }
 
 adulto(12);

@@ -4,9 +4,10 @@
 function numeroMayor (num1, num2){
 
     if(num1 > num2){
-         console.log(" el numero mayor es " + num1)
+        console.log("El numero mayor es " + num1)
     }else {
-        console.log(" el numero mayor es "  + num2);
+        console.log("El numero mayor es "  + num2);
     }
 }
-  numeroMayor ( 34,737);
+
+numeroMayor (34,737);

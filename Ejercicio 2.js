@@ -4,22 +4,22 @@
 
 function suma(a, b){
     let suma = a + b;
-    console.log("el resultado de la suma es:" + suma);
+    console.log("el resultado de la suma es: " + suma);
 }
 
 function resta(a, b){
     let resta = a - b;
-    console.log("el resultado de la resta es:" + Math.abs(resta));
+    console.log("el resultado de la resta es: " + Math.abs(resta));
 }
 
 function multiplicar(a,b){
     let multiplicar = a * b;
-    console.log("el resultado de la multiplicacion es:" + multiplicar);
+    console.log("el resultado de la multiplicacion es: " + multiplicar);
 }
 
 function division(a, b){
     let division = a / b;
-    console.log("el resultado de la division es:" + division.toFixed(2));
+    console.log("el resultado de la division es: " + division.toFixed(2));
 }
 
     //Math.abs = obtiene el valor absoluto de un numero//

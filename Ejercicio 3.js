@@ -14,18 +14,18 @@ valores.*/
             promedio = examen + tarea + asistencia + investigacion;
             if(promedio > 6){
                 console.log(
-                    " Estudiante "  + nombre  +  " carnet: " + "\n" + carnet +  " su prommedio es de: " + promedio + " has aprobado " + 
-                    " Felicidades "
+                    "Estudiante "  + nombre  +  " carnet: " + carnet +  " su promedio es de: " + promedio + " has aprobado " + 
+                    "¡Felicidades! 🥳"
                 );
             }else{
                 console.log(
-                    " Estudiante " + nombre + " carnet: " + carnet + " reprobado " +  " su promedio es: " + promedio
+                    "Estudiante " + nombre + " carnet: " + carnet + " reprobado 😢" +  "su promedio es: " + promedio
                 )
                 }
     }
 
-    promedio_alumno("Oscar Lemus", "0234-22", 9,8,7,8);
-    promedio_alumno(" Sarai","0345-22", 5,6,3,6 )
+promedio_alumno("Oscar Lemus","0234-22",9,8,7,8);
+promedio_alumno(" Sarai","0345-22",5,6,3,6 )
 
 
 
