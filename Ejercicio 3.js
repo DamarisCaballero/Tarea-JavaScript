@@ -14,7 +14,7 @@ valores.*/
             promedio = examen + tarea + asistencia + investigacion;
             if(promedio > 6){
                 console.log(
-                     " Estudiante "  + nombre  +  " carnet: " + "\n" + carnet +  " su prommedio es de: " + promedio + " has aprobado " + 
+                    " Estudiante "  + nombre  +  " carnet: " + "\n" + carnet +  " su prommedio es de: " + promedio + " has aprobado " + 
                     " Felicidades "
                 );
             }else{
